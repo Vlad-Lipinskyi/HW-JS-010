@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  margin: 20px 0;
+}
+
+#message1,
+#message4 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#arena {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  border: 2px solid #000;
+  width: 20%;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.box {
+  margin-top: 10%;
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  transition: width 1.5s, height 1.5s;
+  position: absolute;
+}
+
+#gameArea {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: #f0f0f0;
+}
+
+.target {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  cursor: pointer;
+}
+
+#waitMessage {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ff0000; /* Оранжевий колір для повідомлення */
+}
