@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
     "build": "parcel build src/index.html",
     "deploy": "gh-pages -d dist",
@@ -15,6 +14,7 @@
   "dependencies": {
     "dist": "^0.1.2",
     "gh-pages": "^6.2.0",
+    "homepage": "https://vlad-lipinskyi.github.io/HW-JS-010/",
     "handlebars": "^4.7.8",
     "parcel": "^2.13.3"
   },
